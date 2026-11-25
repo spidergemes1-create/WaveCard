@@ -1,0 +1,27 @@
+﻿WaveCard • Я.Музыка для OBS Studio 33, Windows x64
+
+1. Запусти WaveCard-Setup.exe и нажми «Установить». Для обычного OBS и Steam папка определяется автоматически. Для переносного OBS выбери его корневую папку.
+2. Перезапусти OBS. В панели «Источники» нажми + → Я.Музыка → OK.
+3. Включи песню в настольной Яндекс Музыке. На паузе карточка остаётся со значком Ⅱ и остановленным таймером. Когда сеанс плеера закрыт, карточка исчезает.
+
+В свойствах источника выбери Стиль → Обычный или Яндекс. В стиле Яндекс капсула с названием заполняется по ходу песни, под ней — исполнитель и оставшееся время. Длинное название прокручивается автоматически в обоих стилях.
+
+Начальный размер — 420 × 112. В свойствах источника можно поменять ширину, высоту, скругление обложки. Для высокого разрешения укажи конечный размер именно в свойствах. Качество самой обложки зависит от картинки плеера. При отсутствии обложки появится нота, при отсутствии длительности скроется полоса.
+Фон плавно переливается в цветах обложки. Белый след на прямой линии показывает пройденную часть трека. При смене трека старая обложка плавно растворяется за 330 мс после получения новой. Если плеер не передал картинку, виджет продолжает её запрашивать. В свойствах регулируются переливание фона и переход обложки. Для 60 кадров/с выбери 60 в OBS → Настройки → Видео. При обновлении закрой OBS и запусти новый установщик в то же расположение.
+«Обновить» повторно находит медиасеанс и запрашивает обложку. При обычной работе треки находятся автоматически. Для записи звука используй свой обычный аудиоисточник в OBS.
+Плагин использует системную медиасессию настольной Яндекс Музыки. Оценки треков не отображаются. Язык свойств соответствует языку OBS (русский или английский).
+Чтобы удалить плагин, закрой OBS и удали только папку ya-music из расположения, которое показал установщик.
+
+WaveCard • Yandex Music for OBS Studio 33, Windows x64
+
+1. Run WaveCard-Setup.exe and choose Install. Standard and Steam OBS use the same automatic destination. For portable OBS, select its root folder.
+2. Restart OBS. In Sources, choose + → Yandex Music → OK.
+3. Play a track in the Yandex Music desktop app. Pausing freezes the timer and displays a pause symbol. Closing the playback session hides the card.
+
+In source properties choose Style → Classic or Yandex. Yandex places the title inside the progress capsule, above the artist and remaining time. Long titles scroll automatically in both styles.
+
+Start with 420 × 112. Set the final width and height in source properties for sharp text. You can adjust cover corners and refresh detection. Cover resolution and timeline availability depend on the player. Music audio uses your existing OBS audio source.
+A moving cover-colored backdrop sits behind a straight progress line. Track changes use a 330 ms dissolve by default. The previous card stays visible briefly while waiting for the new artwork. Adjust drift speed and optional cover transitions in source properties. For 60 FPS, select 60 in OBS Settings → Video. To update, close OBS and run the new installer with the same destination.
+To uninstall, close OBS and remove only the ya-music folder shown by setup.
+
+
